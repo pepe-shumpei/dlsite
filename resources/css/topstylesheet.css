@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    /* positionプロパティをfixedに、topを0に指定してください */
+    position:fixed;
+    top:0px;
+    /* z-indexを10に指定してください */
+    z-index:10;
+  }
+
+
+  .header-left {
+    height: 65px;
+    width: 100%;
+    float: left;
+  }
+
+  .header-left h1 {
+    line-height: 65px;
+    padding: 0 0px;
+    color: rgb(255, 0, 0);
+    display: block;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+
+  .logo {
+    width:auto;
+    height: 65px;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 5px 0px;
+  }
+
+
+
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+
+  .heading{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.kounyu-ranking{
+    height: 1100px;
+    padding-top: 65px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: left;
+}
+
+  .work {
+    float: left;
+    width: 25%;
+  }
+  
+  
+  
+  .work p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: #000080;
+  }

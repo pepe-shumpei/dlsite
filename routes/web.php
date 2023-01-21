@@ -22,7 +22,8 @@ Route::get('/', function () {
 //----------------------------------------------------------------
 
 //DLSite
-Route::get('/', [ProductController::class, 'index']);
+Route::get('/products', [ProductController::class, 'index']);
+Route::get('/products/{products_id}', [ProductController::class, 'index']);
 
 //----------------------------------------------------------------
 

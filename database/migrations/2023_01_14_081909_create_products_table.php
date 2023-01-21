@@ -14,7 +14,7 @@ class CreateProductsTable extends Migration
     public function up()
     {
 
-        DB::table('books')->truncate();
+        DB::table('products')->truncate();
 
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
